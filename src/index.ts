@@ -24,7 +24,7 @@ export interface TestIdPair<
  *
  * data attribute is default to `data-test-id`
  * 
- * if you want to use different data attribute, please provide it as a second type paramter in the generics.
+ * if you want to use different data attribute, please provide it as a second type parameter in the generics.
  * @example
  * 
  * ```ts
@@ -59,7 +59,7 @@ export function createTestIdPair<
  * 
  * Both `testId` and `selector` will be fully typed to const type
  * 
- * ```
+ * ```ts
  * selector("product-name"); // => "[data-cy=product-name]"
  * testId("product-price"); // { "data-cy": "product-price" }
  * ```

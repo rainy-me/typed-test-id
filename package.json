@@ -1,7 +1,7 @@
 {
   "name": "typed-test-id",
   "version": "1.0.0",
-  "description": "This package links test id used in frontend and selector used in testing through types. Unlocks editor autocomplete and change detection. Powered by template literal types",
+  "description": "This package links test ids used in frontend and selectors used in testing through types. Unlocks editor autocomplete and change detection. Powered by template literal types.",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
