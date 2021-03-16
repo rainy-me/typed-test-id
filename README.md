@@ -1,5 +1,7 @@
 # typed-test-id
 
+[![npm version](https://badge.fury.io/js/typed-test-id.svg)](https://badge.fury.io/js/typed-test-id)
+
 This package links test ids used in frontend and selectors used in testing through types. Unlocks editor autocomplete and change detection. Powered by template literal types.
 
 ## Usage
