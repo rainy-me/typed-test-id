@@ -1,10 +1,10 @@
 {
   "name": "typed-test-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package links test ids used in frontend and selectors used in testing through types. Unlocks editor autocomplete and change detection. Powered by template literal types.",
   "license": "MIT",
   "repository": "https://github.com/rainy-me/typed-test-id",
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "scripts": {
@@ -17,6 +17,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
