@@ -19,7 +19,7 @@ Both `testId` and `selector` will be fully typed to const type.
 
 ```ts
 selector("username-input"); // => "[data-test-id=username-input]"
-testId("password-input"); // { "data-test-id": "password-input" }
+testId("password-input");   // => { "data-test-id": "password-input" }
 ```
 
 if you want to use different data attribute, please provide it as a second type parameter in the generics.
@@ -31,5 +31,5 @@ if you want to use different data attribute, please provide it as a second type 
  const { testId, selector } = createTestIdPair<TestId, "data-cy">("data-cy");
 
  selector("product-name"); // => "[data-cy=product-name]"
- testId("product-price"); // { "data-cy": "product-price" }
+ testId("product-price");  // => { "data-cy": "product-price" }
  ```
