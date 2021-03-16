@@ -29,10 +29,7 @@ if you want to use different data attribute, please provide it as a second type 
  type TestId = "product-name" | "product-price";
  
  const { testId, selector } = createTestIdPair<TestId, "data-cy">("data-cy");
- ```
- 
- Both `testId` and `selector` will be fully typed to const type
- 
+
  ```ts
  selector("product-name"); // => "[data-cy=product-name]"
  testId("product-price"); // { "data-cy": "product-price" }
